@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.screen{
+    height: 602px;
+    width: 335px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.nav{
+    /* background-color: aqua; */
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+    padding-top: 5px;
+}
+#nav-part1{
+    font-size: 1.1vw;
+    font-weight: 550;
+}
+#nav-part2 img{
+    height: 16px;
+    width: 16px;
+}
+.username{
+    height: 50px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.username img{
+    height: 18px;
+    width: 18px;
+}
+.username h2{
+    font-size: 1vw;
+}
+.followers{
+    height: 90px;
+    width: 100%;
+    /* background-color: #bc1888; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.followers #profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(255, 191, 14),blue,rgb(255, 47, 82),purple,orange);
+}
+.followers #profile img{
+    height: 84px;
+    width: 84px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.followers h3{
+    font-size: 1.1vw;
+}
+.followers #weight{
+    font-weight: 500;
+}
+.name{
+    height: 40px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 0px 8px;
+}
+.name h3{
+    font-size: 1vw;
+}
+.name h4{
+    font-size: .9vw;
+    font-weight: 100;
+}
+.followbutton{
+    height: 40px;
+    width: 100%;
+    /* background-color: black; */
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.followbutton button{
+    background-color: #0095F6;
+    color: white;
+    font-weight: 550;
+    padding: 5px 40px;
+    border-radius: 8px;
+    border: none;
+}
+.followbutton button:hover{
+    cursor: pointer;
+}
+.followbutton #black{
+    background-color: #EFEFEF;
+    color: black;
+}
+.followbutton img{
+    background-color: #EFEFEF;
+    height: 25px;
+    width: 30px;
+    border-radius: 8px;
+    padding: 2px 3px;
+}
+.grid{
+    height: 50px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 65px;
+}
+.grid img{
+    height: 25px;
+    width: 25px;
+}
+#border{
+    background-color: #929293;
+    height: 3px;
+    width: 50%;
+    border-radius: 15px;
+}
+.posts{
+    height: 275px;
+    width: 100%;
+    /* background-color: #f09433; */
+}
+.posts img{
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+}
+.home{
+    height: 30px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.home img{
+    height: 20px;
+    width: 20px;
+}
+.border{
+    background-color: #000000;
+    height: 5px;
+    width: 50%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
